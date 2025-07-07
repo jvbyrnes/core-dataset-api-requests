@@ -9,7 +9,7 @@ def main():
     print(works_response)
     print("-"*60)
     print(journals_response)
-    print("-"60)
+    print("-"*60)
     print(data_providers_response)
 
 
