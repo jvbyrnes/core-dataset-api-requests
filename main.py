@@ -1,8 +1,8 @@
 from post_search_request import search_works, search_journals, search_data_providers
 
 def main():
-    works_response = search_works(search_query='machine learning in medicine', limit=2)
-    journals_response = search_journals(search_query="machine learning", limit=2)
+    works_response = search_works(search_query='machine learning in medicine', limit=1)
+    journals_response = search_journals(search_query="machine learning", limit=1)
     data_providers_response = search_data_providers(search_query="dataset")
 
 
